@@ -15,7 +15,7 @@ $a_kop = mysql_fetch_array($q_kop);
 			<tr style="border-bottom: solid 4px">
 				<td><img src="images/logo/<?php echo $a_kop[4]; ?>" width="80px" height="80px"></td>
 				<td align="center">
-				<h1>PANITIA PENERIMAAN SISWA BARU</h1>
+				<h1>PANITIA PENERIMAAN SISWA BARU SMK NEGERI KEMBANG RESIK</h1>
 				<h2><?php echo $a_kop[0]; ?></h2>
 				<h3>Alamat : <?php echo $a_kop[1]; ?></h3>
 				</td>
@@ -66,10 +66,10 @@ $a_kop = mysql_fetch_array($q_kop);
 				cFDfield("Asal Sekolah", $a[18]);
 				
 				echo "<tr><th colspan='2'>Data Nilai dan Prestasi</th></tr>";
-				cFDfield("Bahasa Inggris", $a[22]);
-				cFDfield("Bahasa Indonesia", $a[23]);
-				cFDfield("Matematika", $a[24]);
-				cFDfield("I P A", $a[25]);
+				cFDfield("Nilai Bahasa Inggris", $a[22]);
+				cFDfield("Nilai Bahasa Indonesia", $a[23]);
+				cFDfield("Nilai Matematika", $a[24]);
+				cFDfield("Nilai I P A", $a[25]);
 				cFDfield("Prestasi 1", $a[26]);
 				cFDfield("Tingkat 1", getTktPrestasi($a[27]));
 				cFDfield("Prestasi 2", $a[29]);
@@ -78,8 +78,8 @@ $a_kop = mysql_fetch_array($q_kop);
 				cFDfield("Tingkat 3", getTktPrestasi($a[33]));
 				
 				echo "<tr><th colspan='2'>Data Pilihan Jurusan</th></tr>";
-				cFDfield("Pilihan Jurusan 1", getJurusan($a[36]));
-				cFDfield("Pilihan Jurusan 2", getJurusan($a[37]));
+				cFDfield("Pilihan Jurusan ke-1", getJurusan($a[36]));
+				cFDfield("Pilihan Jurusan ke-2", getJurusan($a[37]));
 				
 				cFDfield("Tanggal Daftar", $a[39]);
 
