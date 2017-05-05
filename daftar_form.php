@@ -295,7 +295,7 @@ if ($p_tombol == "DAFTAR") {
 </article>
 	
 <article class="module width_full">
-	<header><h3>Prestasi Yang Pernah Diraih</h3></header>
+	<header><h3>Prestasi Yang Pernah Diraih oleh Siswa</h3></header>
 	<div class="module_content">
 	<table class="tbl_form">
 		<?php
