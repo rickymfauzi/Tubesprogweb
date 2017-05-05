@@ -48,14 +48,14 @@
 <label for="email">Username</label>
 </div>
 <div class='another_row'>
-<input id="username" name="username" autofocus tabindex="1" type="text" class="required ui-widget-content"/>
+<input id="username" name="username" value="Masukkan username anda" autofocus tabindex="1" type="text" class="required ui-widget-content"/>
 </div>
 
 <div class='field text_field'>
 <label for="password">Password</label>
 </div>
 <div class='one_more_row'>
-<input id="password" name="password" tabindex="2" type="password" value="" class="required ui-widget-content"/>
+<input id="password" name="password" value="Masukkan password anda" tabindex="2" type="password" value="" class="required ui-widget-content"/>
 </div>
 
 
@@ -67,7 +67,7 @@
 </form>
 </div>
 <div class='bottom'></div>
-<div style="text-align: center">Aplikasi PSB 3.0 &copy; Eprayogia</div>
+<div style="text-align: center">Aplikasi Syntas SMK KEMBANG RESIK; Eprayogia-RickyFM-HafizhniRafi</div>
 </div>
 </div>
 </div>
