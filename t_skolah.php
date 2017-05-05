@@ -119,8 +119,8 @@
 			<td><input type="text" size="40" name="nama_skolah" value="<?php echo $nama_skolah; ?>"></td></tr>
 			<tr><td>Status</td>
 			<td>
-			<input type="radio" name="status_skolah" value="1" <?php echo $cekN; ?>><label for="status_skolah">Negeri</label>
-			<input type="radio" name="status_skolah" value="2" <?php echo $cekS; ?>><label for="status_skolah">Swasta</label>
+			<input type="radio" name="status_skolah" value="1" <?php echo $cekN; ?>><label for="status_skolah">Sekolah Negeri</label>
+			<input type="radio" name="status_skolah" value="2" <?php echo $cekS; ?>><label for="status_skolah">Sekolah Swasta</label>
 			</td></tr>
 			<tr><td>Alamat Sekolah</td>
 			<td><input type="text" size="50" name="alamat_skolah" value="<?php echo $alamat_skolah; ?>"></td></tr>
